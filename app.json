@@ -8,8 +8,8 @@
     "repository": "",
     "env": {
       "BOT_TOKEN": {
-        "description": "7251005777:AAHQ-qNJrZ1Wm683pu8-96pm6mqlTaBKxAc",
-        "value": "7251005777:AAHQ-qNJrZ1Wm683pu8-96pm6mqlTaBKxAc"
+        "description": "7107142138:AAExraW37E8AVrDXTJ4MAo3hTRAHKKcnvl4",
+        "value": "7107142138:AAExraW37E8AVrDXTJ4MAo3hTRAHKKcnvl4"
       },
       "API_ID": {
         "description": "20346550",
@@ -20,8 +20,8 @@
         "value": "bc79c3bea7a626887bdc0871eecf0327"
       },
       "OWNER_ID": {
-        "description": "7081036509",
-        "value": "7081036509",
+        "description": "8429473345",
+        "value": "8429473345",
         "required": true
       },
       "DATABASE_NAME": {
