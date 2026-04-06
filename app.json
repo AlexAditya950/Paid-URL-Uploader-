@@ -1,0 +1,60 @@
+{
+    "name": "Bot",
+    "description": "Bot",
+    "keywords": [
+      "telegram"
+    ],
+    "website": "",
+    "repository": "",
+    "env": {
+      "BOT_TOKEN": {
+        "description": "7251005777:AAHQ-qNJrZ1Wm683pu8-96pm6mqlTaBKxAc",
+        "value": "7251005777:AAHQ-qNJrZ1Wm683pu8-96pm6mqlTaBKxAc"
+      },
+      "API_ID": {
+        "description": "20346550",
+        "value": "20346550"
+      },
+      "API_HASH": {
+        "description": "bc79c3bea7a626887bdc0871eecf0327",
+        "value": "bc79c3bea7a626887bdc0871eecf0327"
+      },
+      "OWNER_ID": {
+        "description": "7081036509",
+        "value": "7081036509",
+        "required": true
+      },
+      "DATABASE_NAME": {
+        "description": "drmbot",
+        "value": "drmbot",
+        "required": false
+      },
+      "DATABASE_URL": {
+        "description": "mongodb+srv://MRDAXX:MRDAXX@mrdaxx.prky3aj.mongodb.net/?retryWrites=true&w=majority",
+        "value": "mongodb+srv://MRDAXX:MRDAXX@mrdaxx.prky3aj.mongodb.net/?retryWrites=true&w=majority",
+        "required": true
+      },
+      "LOG_CHANNEL": {
+        "description": "-1002217791868",
+        "value": "-1002217791868"
+      }
+    },
+    "addons": [],
+    "buildpacks": [
+      {
+        "url": "https://github.com/amivin/aria2-heroku.git"
+      },
+      {
+        "url": "heroku/python"
+      },
+      {
+        "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+      }
+    ],
+    "formation": {
+      "worker": {
+        "quantity": 1,
+        "size": "standard-2x"
+      }
+    }
+}
